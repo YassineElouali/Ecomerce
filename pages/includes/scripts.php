@@ -1,0 +1,11 @@
+<script src="/commerce/js/jquery.js"></script>
+<script src="/commerce/js/bootstrap.js"></script>
+<script src="/commerce/js/icheck.js"></script>
+<script src="/commerce/js/ionrangeslider.js"></script>
+<script src="/commerce/js/jqzoom.js"></script>
+<script src="/commerce/js/card-payment.js"></script>
+<script src="/commerce/js/owl-carousel.js"></script>
+<script src="/commerce/js/magnific.js"></script>
+<script src="/commerce/js/custom.js"></script>
+<script src="/commerce/js/basket.js"></script>
+<script src="/commerce/js/basket-old.js"></script>

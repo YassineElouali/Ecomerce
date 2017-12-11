@@ -1,0 +1,44 @@
+<div class="row">
+    <div class="col-md-6">
+        <img class="full-width" src="/commerce/pages/img/{{ image }}" alt="Image Alternative text" title="Image Title" />
+    </div>
+    <div class="col-md-6">
+        <ul class="product-page-product-rating">
+            <li class="rated"><i class="fa fa-star"></i>
+            </li>
+            <li class="rated"><i class="fa fa-star"></i>
+            </li>
+            <li class="rated"><i class="fa fa-star"></i>
+            </li>
+            <li class="rated"><i class="fa fa-star"></i>
+            </li>
+            <li class="rated"><i class="fa fa-star"></i>
+            </li>
+        </ul>
+
+        <h1>{{ nom }}</h1>
+        <p class="product-page-price">{{ prix }}</p>
+        <p class="text-muted text-sm">Livraison Gratuite</p>
+        <p class="product-page-desc-lg">{{  description }}</p>
+        <ul class="product-page-option-list">
+            <li class="clearfix">
+
+            </li>
+            <li class="clearfix">
+
+            </li>
+        </ul>
+        <ul class="product-page-actions-list">
+            <li class="product-page-qty-item">
+                <button class="product-page-qty product-page-qty-minus">-</button>
+                <input class="product-page-qty product-page-qty-input" type="text" value="1" />
+                <button class="product-page-qty product-page-qty-plus">+</button>
+            </li>
+            <li>
+                <a class="btn btn-lg btn-primary add_to_basket" href="#" rel="{{ rel }} "><i class="fa fa-shopping-cart"></i> {{  label }}</a>
+            </li>
+            <li><a class="btn btn-lg btn-default" href="#"><i class="fa fa-star"></i>Wishlist</a>
+            </li>
+        </ul>
+    </div>
+</div>
